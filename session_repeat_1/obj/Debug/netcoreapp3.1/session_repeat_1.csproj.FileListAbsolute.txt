@@ -1,0 +1,16 @@
+C:\Users\DEZHURIK\Desktop\C_Sharp-Repeat\session_repeat_1\session_repeat_1\bin\Debug\netcoreapp3.1\session_repeat_1.exe
+C:\Users\DEZHURIK\Desktop\C_Sharp-Repeat\session_repeat_1\session_repeat_1\bin\Debug\netcoreapp3.1\session_repeat_1.deps.json
+C:\Users\DEZHURIK\Desktop\C_Sharp-Repeat\session_repeat_1\session_repeat_1\bin\Debug\netcoreapp3.1\session_repeat_1.runtimeconfig.json
+C:\Users\DEZHURIK\Desktop\C_Sharp-Repeat\session_repeat_1\session_repeat_1\bin\Debug\netcoreapp3.1\session_repeat_1.runtimeconfig.dev.json
+C:\Users\DEZHURIK\Desktop\C_Sharp-Repeat\session_repeat_1\session_repeat_1\bin\Debug\netcoreapp3.1\session_repeat_1.dll
+C:\Users\DEZHURIK\Desktop\C_Sharp-Repeat\session_repeat_1\session_repeat_1\bin\Debug\netcoreapp3.1\session_repeat_1.pdb
+C:\Users\DEZHURIK\Desktop\C_Sharp-Repeat\session_repeat_1\session_repeat_1\obj\Debug\netcoreapp3.1\session_repeat_1.csproj.AssemblyReference.cache
+C:\Users\DEZHURIK\Desktop\C_Sharp-Repeat\session_repeat_1\session_repeat_1\obj\Debug\netcoreapp3.1\session_repeat_1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DEZHURIK\Desktop\C_Sharp-Repeat\session_repeat_1\session_repeat_1\obj\Debug\netcoreapp3.1\session_repeat_1.AssemblyInfoInputs.cache
+C:\Users\DEZHURIK\Desktop\C_Sharp-Repeat\session_repeat_1\session_repeat_1\obj\Debug\netcoreapp3.1\session_repeat_1.AssemblyInfo.cs
+C:\Users\DEZHURIK\Desktop\C_Sharp-Repeat\session_repeat_1\session_repeat_1\obj\Debug\netcoreapp3.1\session_repeat_1.csproj.CoreCompileInputs.cache
+C:\Users\DEZHURIK\Desktop\C_Sharp-Repeat\session_repeat_1\session_repeat_1\obj\Debug\netcoreapp3.1\session_repeat_1.dll
+C:\Users\DEZHURIK\Desktop\C_Sharp-Repeat\session_repeat_1\session_repeat_1\obj\Debug\netcoreapp3.1\session_repeat_1.pdb
+C:\Users\DEZHURIK\Desktop\C_Sharp-Repeat\session_repeat_1\session_repeat_1\obj\Debug\netcoreapp3.1\session_repeat_1.genruntimeconfig.cache
+C:\Users\DEZHURIK\Desktop\C_Sharp-Repeat\session_repeat_1\session_repeat_1\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\DEZHURIK\Desktop\C_Sharp-Repeat\session_repeat_1\session_repeat_1\obj\Debug\netcoreapp3.1\session_repeat_1.csproj.CopyComplete
