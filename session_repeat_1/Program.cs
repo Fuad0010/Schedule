@@ -14,7 +14,7 @@ namespace session_repeat_1
 
         static void Main(string[] args)
         {
-            string schedulePath = @"C:\Users\DEZHURIK\Desktop\C_Sharp-Repeat\session_repeat_1\Schedule.txt";
+            string schedulePath = @"C:\Users\DEZHURIK\Desktop\C_Sharp-Repeat\sessioasn_repeat_1\Schedule.txt";
             string schedulePathJson = @"C:\Users\DEZHURIK\Desktop\C_Sharp-Repeat\session_repeat_1\Schedule.json";
             string schedulePathXml = @"C:\Users\DEZHURIK\Desktop\C_Sharp-Repeat\session_repeat_1\Schedule.xml";
 
@@ -27,9 +27,15 @@ namespace session_repeat_1
         }
         static void TxtConverter(List<Session> sessions, string txtPath)
         {
-            if (!File.Exists(txtPath))
+            if (sessions == null)
+            {
+                Console.WriteLine("no arguments");
+                return;
+            }
+            else if (!File.Exists(txtPath))
             {
                 Console.WriteLine("this is not a path");
+                return;
             }
             else
             {
