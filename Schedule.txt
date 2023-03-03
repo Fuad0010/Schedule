@@ -1,0 +1,14 @@
+Session: Date="01.01.2023"
+SessionItem: Start="13:00" End="13:45" Name="Session1_Item1"
+SessionItem: Start="17:00" End="19:45" Name="Session1_Item2"
+SessionItem: Start="15:00" End="21:45" Name="Session1_Item3"
+
+Session: Date="02.01.2023"
+SessionItem: Start="13:00" End="13:45" Name="Session2_Item1"
+SessionItem: Start="17:00" End="19:45" Name="Session2_Item2"
+SessionItem: Start="15:00" End="21:45" Name="Session2_Item3"
+
+Session: Date="03.01.2023"
+SessionItem: Start="13:00" End="13:45" Name="Session3_Item1"
+SessionItem: Start="17:00" End="19:45" Name="Session3_Item2"
+SessionItem: Start="15:00" End="21:45" Name="Session3_Item3"

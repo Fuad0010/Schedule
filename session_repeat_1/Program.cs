@@ -11,18 +11,34 @@ namespace session_repeat_1
 {
     internal class Program
     {
+        
         static void Main(string[] args)
         {
-            string schedulePath = @"C:\Users\DEZHURIK\Desktop\Schedule.txt";
+            string schedulePath = "asdasd";
             string schedulePathJson = @"C:\Users\DEZHURIK\Desktop\C_Sharp-Repeat\session_repeat_1\Schedule.json";
             string schedulePathXml = @"C:\Users\DEZHURIK\Desktop\C_Sharp-Repeat\session_repeat_1\Schedule.xml";
 
 
-            string text = File.ReadAllText(schedulePath);
+            if (!File.Exists(schedulePath))
+            {
+                Console.WriteLine("path-dir");
+            }
+
+
+
+            List<Session> sessions = new List<Session>();
+
+            //TxtConverter(sessions, schedulePath);
+            //ToJson(sessions, schedulePathJson);
+            //ToXml(sessions, schedulePathXml);
+
+        }
+        static void TxtConverter(List<Session> sessions, string txtPath)
+        {
+            string text = File.ReadAllText(txtPath);
 
             string[] lines = text.Replace("\r", "").Split("\n").ToArray();
 
-            List<Session> sessions = new List<Session>();
 
             Session selectedSession = null;
 
@@ -32,7 +48,7 @@ namespace session_repeat_1
                 string line = lines[i];
                 string[] session = line.Split("\"");
 
-                if (session[0]=="")
+                if (session[0] == "")
                 {
                     continue;
                 }
@@ -63,10 +79,15 @@ namespace session_repeat_1
                 }
             }
 
+
+        }
+        static void ToJson(List<Session> sessions, string jsonPath)
+        {
             string json = JsonConvert.SerializeObject(sessions.ToArray());
-
-            File.WriteAllText(schedulePathJson, json);
-
+            File.WriteAllText(jsonPath, json);
+        }
+        static void ToXml(List<Session> sessions, string xmlPath)
+        {
             XmlSerializer xsSubmit = new XmlSerializer(typeof(Session[]));
             string xml = "";
 
@@ -79,7 +100,8 @@ namespace session_repeat_1
                 }
             }
 
-            File.WriteAllText(schedulePathXml,xml);
+            File.WriteAllText(xmlPath, xml);
         }
+        
     }
-}
+    }
