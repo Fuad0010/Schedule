@@ -13,7 +13,19 @@ namespace session_repeat_1
     {
         static void Main(string[] args)
         {
-            string fileName = @"session_repeat_1\Schedule";
+            string input = "";
+
+            if (args.Length != 0)
+            {
+                input = args[0];
+            }
+            else
+            {
+                Console.WriteLine("input doesnt exist");
+                return;
+            }
+
+            string fileName = @"session_repeat_1\" + input;
             FileInfo f = new FileInfo(fileName);
             fileName = f.FullName;
 
@@ -31,6 +43,7 @@ namespace session_repeat_1
             ToJson(sessions, schedulePathJson);
             ToXml(sessions, schedulePathXml);
 
+            Console.WriteLine("is worked!");
         }
         static string PathConverter(ref string path, string format)
         {
